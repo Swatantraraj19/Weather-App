@@ -53,15 +53,10 @@
     </div>
   </div>
 
-  
-
   <script>
 
     const  apiKey =" 8ec3296109997380d14050ab1f82b5ad";
     const apiUrl =" https://api.openweathermap.org/data/2.5/weather?units=metric&q=delhi";
-
-// const searchBox = document.querySelectorAll(" .search input");
-// const searchBtn = document.querySelectorAll(" .search button");
 
 async function checkWeather(){
     const response = await fetch(apiUrl + ` &appid=${apiKey}`);
@@ -70,30 +65,7 @@ async function checkWeather(){
     console.log(data);
 }
 
-//     document.querySelector(".city").innerHTML= data.name;
-//     document.querySelector(".temp").innerHTML= Math.round(data.main.temp)+"°C";
-//     document.querySelectorAll(".humidity").innerHTML=data.main.humidity+"%";
-//     document.querySelectorAll(".wind").innerHTML=data.wind.speed+"km/h";
-// }
-
      checkWeather();
-
-//    searchBtn.addEventListener("click",()=>{
-//     checkWeather(searchBox.value);
-//    })
-
-
-  //  let mg =90;
-  //  function na (my){
-  //   var page
-  //   let by; 
-
-
-
-
-   
-   
-
 
   </script>
 </body>
