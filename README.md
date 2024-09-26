@@ -21,6 +21,9 @@ Tech Stack
 
 
 HTML5: Structuring the app.
+
 CSS3: Styling and layout, including responsiveness.
+
 JavaScript: Fetching weather data from the API and handling user interactions.
+
 OpenWeatherMap API: Provides live weather data.
